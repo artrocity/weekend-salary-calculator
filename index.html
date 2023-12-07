@@ -2,19 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
   <title>Salary Calculator</title>
+  <!-- Bootstrap Link -->
+  <!-- Personalized CSS Link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Javascript Link -->
 </head>
-<body>
-  <header>
-    <h1>Salary Calculator</h1>
-  </header>
-  <main>
-    <h2>Add Employee</h2>
-    <h2>Employees</h2>
-  </main>
-  <footer>
-    <p>Total Monthly</p>
-  </footer>
-</body>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1 class="pageHeader">Salary Calculator</h1>
+    </header>
+    
+    <main>
+      <!-- Add Employee -->
+      <div class="addContainer">
+        <h2>Add Employee</h2>
+        <div class="inputContainer">
+          <input data-testid="firstNameInput" class="firstNameInput" placeholder="First Name">
+          <input data-testid="lastNameInput" class="lastNameInput" placeholder="Last Name">
+          <input data-testid="idInput" class="idInput" placeholder="ID">
+          <input data-testid="titleInput" class="titleInput" placeholder="Title">
+          <input data-testid="annualSalaryInput" class="annualSalaryInput" placeholder="Annual Salary">
+          <button data-testid="submitButton" class="submitButton">Submit</button>
+        </div>
+      
+      <!-- Employee Container -->
+      </div>
+      <div class="employee-container">
+        <h2>Employees</h2>
+      </div>
+    </main>
+
+    <!-- Total Monthly -->
+    <footer>
+      <p>Total Monthly</p>
+    </footer>
+  </body>
 </html>

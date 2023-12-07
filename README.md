@@ -1,9 +1,31 @@
-# Project Name
+ANNUAL SALARY CALCULATOR
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+# Description
+Duration: Weekend Project
 
-## Description
+What problem did you solve? How did you solve it?
 
-Your project description goes here. What problem did you solve? How did you solve it?
+To see the fully functional site, please visit: Not implemented at this time!
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+## Screen Shot
+Include one or two screen shots of your project here (optional). Remove if unused.
+
+### Prerequisites
+Link to software that is required to install the app (e.g. node).
+
+#### Installation
+How do you get your application up and running? This is a step by step list for how another developer could get this project up and running. The good target audience in terms of knowledge, would be a fellow Primer from another cohort being able to spin up this project. Note that you do not need a paragraph here to intro Installation. It should be step-by-step.
+
+##### Usage
+How does someone use this application? Tell a user story here.
+
+##### Built With
+Javascript
+Bootstrap
+HTML/CSS
+
+##### Acknowledgement
+Thanks to Prime Digital Academy who equipped and helped me to make this application a reality. (Thank your people)
+
+##### Support
+If you have suggestions or issues, please let me know!

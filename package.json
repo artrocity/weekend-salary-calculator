@@ -1,12 +1,12 @@
 {
   "name": "weekend-salary-calculator",
   "version": "1.0.0",
-  "description": "[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md",
-  "main": "index.js",
+  "description": "A salary calculator which calculates an employees annual salary",
+  "main": "scripts/script.js",
   "scripts": {
     "test": "jest --verbose"
   },
-  "author": "",
+  "author": "Ryan Barfield",
   "license": "ISC",
   "devDependencies": {
     "@testing-library/dom": "^9.3.1",
