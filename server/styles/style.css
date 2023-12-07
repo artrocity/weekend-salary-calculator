@@ -1,0 +1,51 @@
+/* Page Header */
+.pageHeader {
+    text-align: center;
+}
+
+/* Page Breaks (HR) */
+.pagebreakHR {
+    width: 70%;
+    margin: 1rem auto;
+}
+
+/* Input Form*/
+.addContainer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.addEmployeeHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.inputContainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    padding-left: 200px;
+}
+
+.submitButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Employee Table */
+.employeeHeader {
+    text-align: center;
+}
+
+/* Monthly Cost Header */
+.monthlyCostHeader {
+    text-align: center;
+}

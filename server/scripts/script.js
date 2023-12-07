@@ -10,6 +10,32 @@
 //     * A new employee row should be added to the table.
 //     * The footer's total monthly cost should be updated.
 //     * The form inputs should be cleared out.
+//     * `data-testid="firstNameInput"`
+//     * `data-testid="lastNameInput"`
+//     * `data-testid="idInput"`
+//     * `data-testid="titleInput"`
+//     * `data-testid="annualSalaryInput"`
+
+function clearInputs() {
+    document.querySelector(".firstNameInput").value = "";
+    document.querySelector(".lastNameInput").value = "";
+    document.querySelector(".idInput").value = "";
+    document.querySelector(".titleInput").value = "";
+    document.querySelector(".annualSalaryInput").value = "";
+};
+
+function addEmployeeRow() {
+    // Obtain inputs
+    let firsrtName = document.querySelector(".firstNameInput").value = "";
+    let lastName = document.querySelector(".lastNameInput").value = "";
+    let id = document.querySelector(".idInput").value = "";
+    let title = document.querySelector(".titleInput").value = "";
+    let salary = document.querySelector(".annualSalaryInput").value = "";
+
+    // Obtain the container for the employee table
+
+    // Add InnerHTML to the TBODY
+}
 
 // 3.) [ ] Javascript - If the total monthly cost **exceeds $20,000**, apply an `over-budget` CSS class to the footer element.
 //     * When applied, this CSS class should provide a clear visual indication that the monthly cost has been exceeded. (This could be as simple as turning the footer text red.)
