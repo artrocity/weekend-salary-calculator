@@ -1,0 +1,99 @@
+/* Navbar */
+.container {
+    width: 100%;
+    background-color: #caf0f8;
+}
+
+/* Page Header */
+.pageHeader {
+    text-align: center;
+}
+
+/* Page Breaks (HR) */
+.pagebreakHR {
+    width: 70%;
+    margin: 1rem auto;
+}
+
+/* Input Form*/
+.addContainer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.addEmployeeHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.inputContainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    padding-left: 120px;
+}
+
+.submitButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Employee Table */
+.employeeHeader {
+    text-align: center;
+}
+
+.employeeTable {
+    width: 70%;
+    margin: 3rem auto;
+}
+
+/* Monthly Cost Header */
+#monthlyCostHeader {
+    text-align: center;
+}
+
+
+/*  Footer */
+footer {
+    margin-bottom: 2rem;
+}
+
+.within-budget {
+    font-size: 24px;
+    font-weight: bolder;
+    color: green;
+}
+
+.over-budget {
+    font-size: 24px;
+    font-weight: bolder;
+    color: red;
+}
+
+
+
+
+/* STILL WORKING HTML */
+
+/* image container */
+.imgContainer {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+.workInProgressIMG {
+    width: 100%;
+    height: 600px;
+}
