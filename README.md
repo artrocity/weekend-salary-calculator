@@ -3,7 +3,13 @@ ANNUAL SALARY CALCULATOR
 # Description
 Duration: Weekend Project
 
-What problem did you solve? How did you solve it?
+The specific requirements from the client was a working webpage which allowed them to track user data:
+    - Name
+    - Employee ID
+    - Title
+    - Annual Salary
+
+And then create a web page which tracked all of this data in addition to converting the annual salary to a monthly salary
 
 To see the fully functional site, please visit: Not implemented at this time!
 

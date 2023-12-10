@@ -80,15 +80,22 @@ function addEmployeeRow() {
 function checkBudget(expenses) {
     // Obtain the elements 
     let monthlyExpenses = document.querySelector("#monthlyCostExpenses");
+    let footerElement = document.querySelector("footer");
 
-    // Check if expenses are within budget ( I know i can use .replace here, but they need to be instated prior to creating, so i chose to use add and remove)
+    // Check if expenses are within budget
     if (expenses > 20000) {
         monthlyExpenses.classList.remove("within-budget");
         monthlyExpenses.classList.add("over-budget");
+
+        footerElement.classList.remove("within-budget");
+        footerElement.classList.add("over-budget");
         alert("You have exceeded the allowed monthly budget of $20,000");
     } else {
         monthlyExpenses.classList.remove("over-budget");
         monthlyExpenses.classList.add("within-budget");
+
+        footerElement.classList.remove("over-budget")
+        footerElement.classList.remove("within-budget")
     }
 }
 
