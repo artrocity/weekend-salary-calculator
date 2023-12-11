@@ -45,7 +45,7 @@ function addEmployeeRow() {
         maximumFractionDigits: 2,
         minimumFractionDigits: 2
     });
-    monthlyElement.innerText = `$${formattedMonthlyExpenses}`;
+    monthlyElement.innerHTML = `$${formattedMonthlyExpenses}`;
 
     // Obtain the container for the employee table body
     let tableBody = document.querySelector(".employeeTableBody");
@@ -60,7 +60,7 @@ function addEmployeeRow() {
             <td>${title}</td>
             <td>$${formattedMonthlySalary}</td>
             <td>$${formattedAnnualSalary}</td>
-            <td><button class="btn btn-danger btn-sm" onclick="removeEmployee(this)">Delete Employee</button>
+            <td><button class="btn btn-danger btn-sm" onclick="removeEmployee(event.target)">Delete Employee</button>
         </tr>
     `;
 
@@ -118,7 +118,7 @@ function removeEmployee(buttonElement) {
         maximumFractionDigits: 2,
         minimumFractionDigits: 2
     });
-    monthlyElement.innerText = `$${formattedMonthlyExpenses}`;
+    monthlyElement.innerHTML = `$${formattedMonthlyExpenses}`;
 
     // Check if monthly budget is exceeded
     checkBudget(totalMonthlyExpenses);
