@@ -29,9 +29,8 @@ function addEmployeeRow() {
         minimumFractionDigits: 2
     });
 
-    // Convert annual salary to monthly salary
+    // Convert annual salary to monthly salary and add it to the total
     let monthlySalary = annualSalary / 12;
-
     totalMonthlyExpenses += monthlySalary
     
     // Format the monthly salary
