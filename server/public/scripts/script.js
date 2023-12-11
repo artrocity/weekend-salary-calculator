@@ -60,7 +60,7 @@ function addEmployeeRow() {
             <td>${title}</td>
             <td>$${formattedMonthlySalary}</td>
             <td>$${formattedAnnualSalary}</td>
-            <td><button class="btn btn-danger btn-sm" onclick="removeEmployee(event.target)">Delete Employee</button>
+            <td><button class="btn btn-danger btn-sm" onclick="removeEmployee(event)">Delete Employee</button>
         </tr>
     `;
 
@@ -101,12 +101,13 @@ function checkBudget(expenses) {
 
 // 4.) [ X ] Javascript/HTML Create a "Delete" button that removes an employee from the DOM.
 //     [ X ] When an employee is deleted, update the footer's monthly cost to reflect that employee's removal.
-function removeEmployee(buttonElement) {
+function removeEmployee(event) {
     // obtain the current row
-    let currentRow = buttonElement.closest("tr");
+    let button = event.target;
+    let currentRow = button.closest("tr");
 
     // Get the salary from the row and subtract it from totalMonthlyExpenses
-    let salaryCellText = currentRow.cells[5].innerText;
+    let salaryCellText = currentRow.cells[5].innerHTML;
     
     // Had to use a regex to extract the commas and dollar sign from the string
     let monthlySalary = Number(salaryCellText.replace(/\$/g, '').replace(/,/g, ''));
